@@ -102,6 +102,8 @@ else:
  print("No frequent sequential patterns found in Party Wear.")
 ```
 ### Output:
+![Screenshot 2024-09-28 132140](https://github.com/user-attachments/assets/c9e1229f-0274-4801-a1b5-cd887b27628a)
+
 
 ### Visualization:
 ```python
@@ -120,16 +122,22 @@ def visualize_patterns_line(result, category):
         plt.title(f'Frequent Sequential Patterns - {category}')
         plt.xticks(rotation=90)
         plt.tight_layout()
-        plt.show()
+       ![Screenshot 2024-09-28 091926](https://github.com/user-attachments/assets/0c3f1dd3-62b3-44e8-addf-e35fbf8a3152)
+ plt.show()
     else:
+![Screenshot 2024-08-22 092008](https://github.com/user-attachments/assets/7f3930f0-0cd6-4458-844f-c26bfdffa3d0)
         print(f"No frequent sequential patterns found in {category}.")
 
 # Visualize frequent sequential patterns for each category using a line plot
 visualize_patterns_line(top_wear_result, 'Top Wear')
-visualize_patterns_line(bottom_wear_result, 'Bottom Wear')
+visualize_patter![Screenshot 2024-08-29 094520](https://github.com/user-attachments/assets/fbac73ad-250c-40db-8d23-6491bfcced88)
+ns_line(bottom_wear_result, 'Bottom Wear')
 visualize_patterns_line(party_wear_result, 'Party Wear')
 ```
 ### Output:
+![Screenshot 2024-09-28 132208](https://github.com/user-attachments/assets/7d94a0bd-ce3a-44cf-b082-fbd895c382bf)
+![Screenshot 2024-09-28 132228](https://github.com/user-attachments/assets/f250d6dc-5a9a-41a7-8e0f-e176de89c7da)
 
 
 ### Result:
+Thus the implementation of python is executed sucessfully
